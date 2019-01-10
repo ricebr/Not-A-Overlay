@@ -1,6 +1,6 @@
 # RiceBR Local Overlay
 
-You can you it just creating `/etc/portage/repos.conf/ricebr.conf` with the following content:
+You can use it just creating `/etc/portage/repos.conf/ricebr.conf` with the following content:
 
 ```
 [ricebr]
