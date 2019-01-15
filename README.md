@@ -3,7 +3,7 @@
 You can use it just creating `/etc/portage/repos.conf/ricebr.conf` with the following content:
 
 ```
-[ricebr]
+[Not-A-Overlay]
 location = /usr/local/not-a-overlay
 sync-type = git
 sync-uri = https://github.com/ricebr/Not-A-Overlay.git
