@@ -6,18 +6,16 @@ EAPI=6
 
 inherit git-r3
 
-DESCRIPTION="a featherweight, lemon-scented, bar based on xcb"
-HOMEPAGE="https://github.com/LemonBoy/bar"
-EGIT_REPO_URI="https://github.com/osense/bar.git"
+DESCRIPTION="This is a fork of lemonbar that supports fontconfig and offset"
+HOMEPAGE="https://github.com/krypt-n/bar"
+EGIT_REPO_URI="https://github.com/krypt-n/bar.git"
 
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 x86"
-IUSE="xft"
 
 CDEPEND="
 	x11-libs/libxcb
-	xft? ( x11-libs/libXft )
 "
 DEPEND="
 	dev-lang/perl
