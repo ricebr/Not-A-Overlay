@@ -17,8 +17,3 @@ LICENSE="MIT"
 
 DEPEND="x11-misc/xdg-utils"
 RDEPEND="${DEPEND}"
-
-src_install(){
-	dobin fff
-	doman "${PN}.1"
-}
